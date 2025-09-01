@@ -15,8 +15,10 @@ body{
     border-radius: 8px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.9);
     margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* horizontal */
     align-items: center;
-    
 }
 .h1{
     
