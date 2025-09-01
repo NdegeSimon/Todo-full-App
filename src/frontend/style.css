@@ -19,6 +19,7 @@ body{
     flex-direction: column;
     justify-content: center; /* horizontal */
     align-items: center;
+    gap: 20px;
 }
 .h1{
     
@@ -50,11 +51,33 @@ body{
 .login-button {
     padding: 2em;
     border: none;
-    border-radius: 20px;
-    background-color: #03461370;
+    border-radius: 30px;
+    background-color: #0b9c2b;
     color: white;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
 }
 .login-button:hover {
-    background-color: #a3f0b4;
+    background-color: #03461370;
+}
+.signup-button{
+    padding: 2em;
+    border: none;
+    border-radius: 35px;
+    background-color: #0b9c2b;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+}
+.google-button{
+    margin-left: 100px;
+    padding: 2em;
+    border: none;   
+    cursor: pointer;
+    background-color: white;
+    color: black;
 }
